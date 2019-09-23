@@ -1,0 +1,11 @@
+{
+  "sender": {
+    "credentials": {
+      "mail": "sampleMail@gmail.com",
+      "password": "samplePassword"
+    }
+  },
+  "receivers": [
+    "samplereceiver@gmail.com"
+  ] 
+}
