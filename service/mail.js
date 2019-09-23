@@ -40,9 +40,9 @@ const sendMail = data => {
   
     transporter.sendMail(mailOptions, (err, info) => {
       if(err)
-        return reject(err);
+        throw err;
       else
-        return resolve(info);
+        return;
    });
 
   } catch (e) {
